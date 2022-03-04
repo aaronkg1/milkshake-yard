@@ -87,7 +87,7 @@ header li::before {
       background: pink;
        left: 74px;
        top: 20px;
-      width: 40px;
+      width: 22px;
       height: 10px;
       border-radius: 50%;
       z-index: -20;
@@ -101,7 +101,7 @@ header li::after {
       background: pink;
       top: 20px;
        left: 50px;
-      width: 40px;
+      width: 24px;
       height: 10px;
       border-radius: 50%;
       z-index: -20;
@@ -115,7 +115,7 @@ header li:hover::after {
  }
 header li:hover::before {
 
-  animation: drip 2s both, beforegrow 4s both;
+  animation: drip 2s both, beforegrow 2s both;
    
  }
 
@@ -133,7 +133,7 @@ header li:hover::before {
       background: pink;
        left: 95px;
        top: 20px;
-      width: 50px;
+      width: 26px;
       height: 16px;
       border-radius: 50%;
       z-index: -20;
@@ -146,7 +146,7 @@ header li:hover::before {
       background: pink;
       top: 0px;
        left: 30px;
-      width: 100px;
+      width: 28px;
       height: 2px;
       border-radius: 50%;
       z-index: -20;
@@ -163,7 +163,7 @@ header li:hover::before {
     100% {
         height: 27px;
         width: 24px;
-        border-bottom: solid 1px rgb(255, 157, 170);
+        border-bottom: solid 0.5px rgb(255, 157, 170);
         border-top-left-radius: 0px;
         border-top-right-radius: 0px;
     }
@@ -172,22 +172,22 @@ header li:hover::before {
 @keyframes beforegrow {
     
     100% {
-        height: 33px;
+        height: 43px;
         width: 22px;
        border-top-left-radius: 0px;
        border-top-right-radius: 0px;
-        border-bottom: solid 1px rgb(255, 157, 170);
+        border-bottom: solid 0.5px rgb(255, 157, 170);
       
     }
 }
 @keyframes dripbeforegrow {
     
     100% {
-        height: 24px;
-        width: 22px;
+        height: 36px;
+        width: 16px;
        border-top-left-radius: 0px;
        border-top-right-radius: 0px;
-        border-bottom: solid 1px rgb(255, 157, 170);
+        border-bottom: solid 0.5px rgb(255, 157, 170);
       
     }
 }
