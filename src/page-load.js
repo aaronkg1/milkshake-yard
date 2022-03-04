@@ -31,7 +31,17 @@ const menuItems =
     name: 'Peanut Butter & Chocolate',
         description: 'Peanut Butter & chocolate shake',
         price: '£3.50',
-}
+},
+{
+    name: 'Bacon & Eggs',
+        description: 'A greasy breakfast shake',
+        price: '£3.50',
+},
+{
+    name: 'Lorem Ipsum',
+        description: 'A delicious blend of random words',
+        price: '£3.50',
+},
 ]
 
 function homeDisplay() {
