@@ -287,10 +287,12 @@ header li:hover::before {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     align-items: baseline;
-    justify-items:center;
+    justify-items: center;
     background-color: pink;
     padding: 10px;
     text-align: center;
+    height: 260px;
+    width: 400px;
     min-height: 260px;
     min-width: 400px;
     border-radius: 10px;
